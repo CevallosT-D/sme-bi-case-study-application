@@ -21,8 +21,10 @@
 *Calculating Cost of Goods of Goods Sold (COGS)*
 
 #### Context
+JEPETO's STORE Management has gave you information about their inventory. You will calculate the `Cost of Goods Sold (COGS)`  and the `Turn Over Rate` of each item over a year to have a better idea of how fast items are being sold and to know the gross margin the company has made for the year.
 
-*3 - 4 sentence description of why it’s important to to do this task (linking back to the learning objective). Explain how this would be used in a real-life situation. Why is it useful, what problem does it solve?*
+We do not recommend doing so, but if you lost progress you can load the solution workbook of the previous exercise `ex-1-sol.pbix` from the workbook folder.
+
 You can look at the same [exercise]([url](https://campus.datacamp.com/courses/case-study-analyzing-customer-churn-in-tableau/exploratory-analysis-1?ex=4)) from the Case Study: Analyzing Customer Churn in Tableau on how to write a good context.
 
 #### Steps to be executed by the student (max 6)
