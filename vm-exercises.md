@@ -37,12 +37,11 @@ Hint: You can use many visualizations, but a barcharts could help see the counts
 - Step 2
 * Create two new columns called `Quantity_2020` and `Quantity_2021` that calculate the quantity of orders by each item type for each year.
 * Compute the initial stock for 2021 in a new column `2021_initial_stock`.
-Hint: * your formula should look like for example: `Quantity_2020 = CALCULATE(SUM(___),FILTER(Orders, Stock[___]=Orders[___] && Orders[___]=2020))`
-* Once you have `Quantity_2020`, you can calculate `2021_initial_stock` by using `Original_stock` 
+Hint: your formula should look like for example: `Quantity_2020 = CALCULATE(SUM(___),FILTER(Orders, Stock[___]=Orders[___] && Orders[___]=2020))`
+      * Once you have `Quantity_2020`, you can calculate `2021_initial_stock` by using `Original_stock` 
 
 - Step 3
 Calculate an initial stock for 2021 and the Cost of Good Sold (COGS) based on this stock quantity. 
-
 Hint: Remember, the company has completely allocated the COGS for a particular item in the `UnitPrice`. Use this variable and the calculated stock quantity to compute the COGS for that particular year.
 
 - Step 4
@@ -52,7 +51,6 @@ Hint: You can use `unitPrice` along with `Original_stock` and `2021_initial_stoc
 - Step 5
 Create a new column `Inventory_turnover_2021` that calculates the Inventory turnover for 2021.
 Make two barcharts to display which item has the highest value.
-
 Hint: * For this exercise, you can use `unit_price` along with `Original_stock` and `2021_initial_stock` to compute this average.
 For the visualization, you can use the description of the items by the average or sum of inventory turnover.
 
