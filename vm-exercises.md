@@ -39,7 +39,7 @@ Hint: You can use many visualizations, but a barchart could help see the counts 
 
 - Step 2
 
-Create two new columns called `Quantity_2020` and `Quantity_2021` that calculate the quantity of orders by each item type for each year.
+Go to the Stock table and create two new columns called `Quantity_2020` and `Quantity_2021` that use a DAX function with `CALCULATE()` to give the quantity of orders by each item type for each year.
 Compute the initial stock for 2021 in a new column `2021_initial_stock`.
 
 Hint: your formula should look like for example: `Quantity_2020 = CALCULATE(SUM(___),FILTER(Orders, Stock[___]=Orders[___] && Orders[___]=2020))`,
@@ -53,13 +53,13 @@ Hint: Remember, the company has completely allocated the COGS for a particular i
 
 - Step 4
 
-Calculate a new variable called `Average_value_inventory` that gives the average between the total cost of initial stock and the total cost of ending stock, using `UnitPrice`
+In the Stock table, calculate a new variable called `Average_value_inventory` that gives the average between the total cost of initial stock and the total cost of ending stock, using `UnitPrice`
 
 Hint: You can use `unitPrice` along with `Original_stock` and `2021_initial_stock` to compute this average.
 
 - Step 5
 
-Create a new column `Inventory_turnover_2021` that calculates the Inventory turnover for 2021.
+Now create another column `Inventory_turnover_2021` that calculates the Inventory turnover for 2021.
 Make two barcharts, one that displays the Items by their Inventory turnover and another that shows the Items by the  which item has the highest value.
 
 Hint: * For this exercise, you can use `unit_price` along with `Original_stock` and `2021_initial_stock` to compute this average.
