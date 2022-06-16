@@ -46,7 +46,7 @@ Hint: your formula should look like for example: `Quantity_2020 = CALCULATE(SUM(
 
 - Step 3
 
-Compute the Cost of Good Sold (COGS) based on 2021 stock quantity in a new column `COGS_2021`. 
+Compute the Cost of Good Sold (COGS) based on 2021 stock quantity in a new column `COGS_2021`. Do not forget to change the format to currency.
 
 Hint: 
 Remember, the company has completely allocated the COGS for a particular item in the `UnitPrice`. Use this variable and the calculated stock quantity to compute the COGS for that particular year.
