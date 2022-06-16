@@ -5,6 +5,7 @@
 - We can only run free versions of BI software in our virtual machine exercises. In the case of Power BI, make sure the exercises can run on [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) without any additional paid products. 
 - Unsure what the scope of an exercise should be? Here's an [example](https://campus.datacamp.com/courses/case-study-analyzing-customer-churn-in-tableau/exploratory-analysis-1?ex=4) from the Case Study: Analyzing Customer Churn in Tableau. The first chapter of most DataCamp courses are free, so take a look at our [BI courses](https://learn.datacamp.com/courses?technologies=Tableau&technologies=Power%20BI) to get a feel for how we assess and guide learners in **case studies**.
 
+
 ## 1st VM Exercise
 
 #### Dataset
@@ -13,7 +14,7 @@
 
 #### Files
 
-- [x] **Initial**: Add file to the `exercises/`  folder with the name `ex-1-intial.twbx` or `ex-1-intial.pbix`, depending if you are auditioning for a Tableau or Power BI course.
+- [x] **Initial**: Add file to the `exercises/`  folder with the name `ex-1-intial.pbix`, depending if you are auditioning for a Tableau or Power BI course.
 - [ ] **Solution**: Add file to the `exercises/`  folder with the name `ex-1-sol.twbx` or `ex-1-sol.pbix`
 
 #### Learning Objective
@@ -34,7 +35,7 @@ Exercise 2.3. Key inventory analysis metrics
 
 It seems there is information of 2 years. Create a visualization of the invoice date and the quantity of orders to explore in which year there are more orders.
 
-Hint: You can use many visualizations, but a barcharts could help see the counts easily.
+Hint: You can use many visualizations, but a barchart could help see the counts easily.
 
 - Step 2
 
@@ -59,10 +60,10 @@ Hint: You can use `unitPrice` along with `Original_stock` and `2021_initial_stoc
 - Step 5
 
 Create a new column `Inventory_turnover_2021` that calculates the Inventory turnover for 2021.
-Make two barcharts to display which item has the highest value.
+Make two barcharts, one that displays the Items by their Inventory turnover and another that shows the Items by the  which item has the highest value.
 
 Hint: * For this exercise, you can use `unit_price` along with `Original_stock` and `2021_initial_stock` to compute this average.
-For the visualization, you can use the description of the items by the average or sum of inventory turnover.
+For the visualization, you can use `Description` with the average or sum of `Inventory_turnover_2021`, and .
 
 
 #### Exercise question:
@@ -75,7 +76,7 @@ For the visualization, you can use the description of the items by the average o
 ## Finalized Workbook
 
 #### Files
-You can upload your final workbook in the exercises folder as `ex-final-sol.twbx` or `ex-final-sol.pbix`.
+You can upload your final workbook in the exercises folder as `ex-final-sol.pbix`.
 
 #### Explanation & Description
 Which answers will the learner be able to solve once building this? How does it fit in the bigger picture?
