@@ -40,16 +40,16 @@ Hint: You can use many visualizations, but a barchart could help see the counts 
 - Step 2
 
 Go to the Stock table and create two new columns called `Quantity_2020` and `Quantity_2021` that use a DAX function with `CALCULATE()` to give the quantity of orders by each item type for each year.
-Compute the initial stock for 2021 in a new column `2021_initial_stock`.
 
 Hint: your formula should look like for example: `Quantity_2020 = CALCULATE(SUM(___),FILTER(Orders, Stock[___]=Orders[___] && Orders[___]=2020))`,
-Once you have `Quantity_2020`, you can calculate `2021_initial_stock` by using `Original_stock` 
+ 
 
 - Step 3
 
-Calculate an initial stock for 2021 and the Cost of Good Sold (COGS) based on this stock quantity. 
+Calculate the initial stock for 2021 in a new column `2021_initial_stock`, and the Cost of Good Sold (COGS) based on this stock quantity. 
 
-Hint: Remember, the company has completely allocated the COGS for a particular item in the `UnitPrice`. Use this variable and the calculated stock quantity to compute the COGS for that particular year.
+Hint: Once you have `Quantity_2020`, you can calculate `2021_initial_stock` by using `Original_stock`.
+Remember, the company has completely allocated the COGS for a particular item in the `UnitPrice`. Use this variable and the calculated stock quantity to compute the COGS for that particular year.
 
 - Step 4
 
