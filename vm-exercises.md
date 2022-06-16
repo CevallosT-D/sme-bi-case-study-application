@@ -46,7 +46,7 @@ Hint: your formula should look like for example: `Quantity_2020 = CALCULATE(SUM(
 
 - Step 3
 
-Calculate the initial stock for 2021 in a new column `2021_initial_stock`, and the Cost of Good Sold (COGS) based on this stock quantity. 
+Calculate the initial stock for 2021 in a new column `2021_initial_stock`, and the Cost of Good Sold (COGS) based on this stock quantity in a column `COGS_2021`. 
 
 Hint: Once you have `Quantity_2020`, you can calculate `2021_initial_stock` by using `Original_stock`.
 Remember, the company has completely allocated the COGS for a particular item in the `UnitPrice`. Use this variable and the calculated stock quantity to compute the COGS for that particular year.
