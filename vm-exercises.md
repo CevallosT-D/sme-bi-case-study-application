@@ -46,16 +46,17 @@ Hint: your formula should look like for example: `Quantity_2020 = CALCULATE(SUM(
 
 - Step 3
 
-Calculate the initial stock for 2021 in a new column `2021_initial_stock`, and the Cost of Good Sold (COGS) based on 2021 stock quantity in a column `COGS_2021`. 
+Compute the Cost of Good Sold (COGS) based on 2021 stock quantity in a new column `COGS_2021`. 
 
-Hint: Once you have `Quantity_2020`, you can calculate `2021_initial_stock` by using `Original_stock`.
+Hint: 
 Remember, the company has completely allocated the COGS for a particular item in the `UnitPrice`. Use this variable and the calculated stock quantity to compute the COGS for that particular year.
 
 - Step 4
 
-In the Stock table, calculate a new variable called `Average_value_inventory` that gives the average between the total cost of initial stock and the total cost of ending stock, using `UnitPrice`
+Calculate the initial stock for 2021 in a new column `2021_initial_stock` and use it to create a new variable called `Average_value_inventory` that gives the average between the total cost of initial stock and the total cost of ending stock, using `UnitPrice`
 
-Hint: You can use `unitPrice` along with `Original_stock` and `2021_initial_stock` to compute this average.
+Hint: Once you have `Quantity_2020`, you can calculate `2021_initial_stock` by using `Original_stock`.
+You can use `unitPrice` along with `Original_stock` and `2021_initial_stock` to compute `Average_value_inventory`.
 
 - Step 5
 
