@@ -42,11 +42,20 @@ Hint: * your formula should look like for example: `Quantity_2020 = CALCULATE(SU
 
 - Step 3
 Calculate an initial stock for 2021 and the Cost of Good Sold (COGS) based on this stock quantity. 
-Remember, the COGS for a particular item is completely allocated in the `UnitPrice`.
-Hint: COGS is defined as `Total quantity of items sold  x  item's manufacturing/adquiring price`. This type of price is given by the `UnitPrice`
+
+Hint: Remember, the company has completely allocated the COGS for a particular item in the `UnitPrice`. Use this variable and the calculated stock quantity to compute the COGS for that particular year.
 
 - Step 4
-Calculate a new variable called `Average_value_inventory` that gives the average between the total cost of initial stock and the total cost of 
+Calculate a new variable called `Average_value_inventory` that gives the average between the total cost of initial stock and the total cost of ending stock, using `UnitPrice`
+Hint: You can use `unitPrice` along with `Original_stock` and `2021_initial_stock` to compute this average.
+
+- Step 5
+Create a new column `Inventory_turnover_2021` that calculates the Inventory turnover for 2021.
+Make two barcharts to display which item has the highest value.
+
+Hint: * For this exercise, you can use `unit_price` along with `Original_stock` and `2021_initial_stock` to compute this average.
+For the visualization, you can use the description of the items by the average or sum of inventory turnover.
+
 
 #### Exercise question:
 *This is a question presented to learners to check if the steps above were properly completed. It can be a multiple choice question or a question with a 1-3 word answer. It is often not possible to check if all the steps are completed, in this case; the priority is to check that the learner meets the learning objective.*
