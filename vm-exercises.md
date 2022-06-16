@@ -53,7 +53,7 @@ Remember, the company has completely allocated the COGS for a particular item in
 
 - Step 4
 
-Calculate the initial stock for 2021 in a new column `2021_initial_stock` and use it to create a another variable called `Average_value_inventory` that gives the average between the total cost of initial stock and the total cost of ending stock, using `UnitPrice`
+Calculate the initial stock for 2021 in a new column `2021_initial_stock` and use it to create a another variable called `Average_value_inventory` that gives the average between the total cost of initial stock and the total cost of ending stock, using `UnitPrice`. Make sure to keep the currency format.
 
 Hint: Once you have `Quantity_2020`, you can calculate `2021_initial_stock` by using `Original_stock`.
 You can use `unitPrice` along with `Original_stock` and `2021_initial_stock` to compute `Average_value_inventory`.
