@@ -18,22 +18,35 @@
 
 #### Learning Objective
 
-*Calculating Cost of Goods of Goods Sold (COGS)*
+*Calculating Inventory Turnover*
 
 #### Context
-JEPETO's STORE Management has gave you information about their inventory. You will calculate the `Cost of Goods Sold (COGS)`  and the `Turn Over Rate` of each item over a year to have a better idea of how fast items are being sold and to know the gross margin the company has made for the year.
+JEPETO's STORE Management has gave you information about their inventory. You will calculate the `Cost of Goods Sold (COGS)`  and the `Inventory Turnover` of each item over a year to have a better idea of how fast items are being sold and to know the gross margin the company has made for the year.
 
 We do not recommend doing so, but if you lost progress you can load the solution workbook of the previous exercise `ex-1-sol.pbix` from the workbook folder.
 
 
 #### Steps to be executed by the student (max 6)
 
-*Each bulleted instruction is a complete sentence that describes a specific task.*
+Exercise 2.3. Key inventory analysis metrics 
 
 - Step 1
+It seems there is information of 2 years. Create a visualization of the invoice date and the quantity of orders to explore in which year there are more orders.
+Hint: You can use many visualizations, but a barcharts could help see the counts easily.
+
 - Step 2
+* Create two new columns called `Quantity_2020` and `Quantity_2021` that calculate the quantity of orders by each item type for each year.
+* Compute the initial stock for 2021 in a new column `2021_initial_stock`.
+Hint: * your formula should look like for example: `Quantity_2020 = CALCULATE(SUM(___),FILTER(Orders, Stock[___]=Orders[___] && Orders[___]=2020))`
+* Once you have `Quantity_2020`, you can calculate `2021_initial_stock` by using `Original_stock` 
+
 - Step 3
-- ...
+Calculate an initial stock for 2021 and the Cost of Good Sold (COGS) based on this stock quantity. 
+Remember, the COGS for a particular item is completely allocated in the `UnitPrice`.
+Hint: COGS is defined as `Total quantity of items sold  x  item's manufacturing/adquiring price`. This type of price is given by the `UnitPrice`
+
+- Step 4
+Calculate a new variable called `Average_value_inventory` that gives the average between the total cost of initial stock and the total cost of 
 
 #### Exercise question:
 *This is a question presented to learners to check if the steps above were properly completed. It can be a multiple choice question or a question with a 1-3 word answer. It is often not possible to check if all the steps are completed, in this case; the priority is to check that the learner meets the learning objective.*
