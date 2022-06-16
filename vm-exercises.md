@@ -25,7 +25,6 @@ JEPETO's STORE Management has gave you information about their inventory. You wi
 
 We do not recommend doing so, but if you lost progress you can load the solution workbook of the previous exercise `ex-1-sol.pbix` from the workbook folder.
 
-You can look at the same [exercise]([url](https://campus.datacamp.com/courses/case-study-analyzing-customer-churn-in-tableau/exploratory-analysis-1?ex=4)) from the Case Study: Analyzing Customer Churn in Tableau on how to write a good context.
 
 #### Steps to be executed by the student (max 6)
 
