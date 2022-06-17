@@ -73,7 +73,7 @@ Hint: Make sure that you correctly specified the quantity columns. Your formula 
 Feedback: Excellent! It seems Lip gloss is among the items that sell most often, perhaps JEPETO's STORE should include more items in a similar category.
 
 #### End goal:
-![End_goal](End_goal.jpg)
+![End_goal](https://github.com/CevallosT-D/files/blob/main/End_goal.jpg?raw=true)
 
 ## Finalized Workbook
 
