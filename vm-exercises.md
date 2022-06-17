@@ -41,7 +41,7 @@ Hint: You can use many visualizations, but a barchart could help see the counts 
 
 Go to the Stock table and create two new columns called `Quantity_2020` and `Quantity_2021` that use a DAX function with `CALCULATE()` to give the quantity of orders by each item type for each year.
 
-Hint: your formula should look like for example: `Quantity_2020 = CALCULATE(SUM(___),FILTER(Orders, Stock[___]=Orders[___] && Orders[___]=2020))`,
+Hint: your formula should look like for example: `Quantity_2020 = CALCULATE(SUM(___),FILTER(Orders, Stock[___]=Orders[___] && Orders[___]=2020))`.
  
 
 - Step 3
@@ -68,7 +68,9 @@ For the visualization, you can use `Description` with the average or sum of `Inv
 
 
 #### Exercise question:
-*This is a question presented to learners to check if the steps above were properly completed. It can be a multiple choice question or a question with a 1-3 word answer. It is often not possible to check if all the steps are completed, in this case; the priority is to check that the learner meets the learning objective.*
+Does the Item with highest inventory turnover match the one with the highest quantity? Mention which is the item with the second highest inventory turnover.
+Hint: Make sure that you correctly specified the quantity columns. Your formula should look like this: `Quantity_2020 = CALCULATE(SUM(Orders[Quantity]),FILTER(Orders, Stock[___]=Orders[___] && Orders[___]=2020))`; Where the first part of filter seeks a column that both tables have in common.
+Feedback: Excellent! It seems Lip gloss is among the items that sell most often, perhaps JEPETO's STORE should include more items in a similar category.
 
 #### End goal:
 
