@@ -81,5 +81,5 @@ You can upload your final workbook in the exercises folder as `ex-final-sol.pbix
 #### Explanation & Description
 The learner gets to understand the concept of Inventory turnover and ABC Analysis whily in a practical way that allows him/her to find ways to calculate it given diferent data structures.
 
-#### End goal - Dashboard:
+#### End goal - Dashboard temptative example:
 ![Dashboard](https://github.com/CevallosT-D/files/blob/main/Dashboard_ex.jpg?raw=true)
