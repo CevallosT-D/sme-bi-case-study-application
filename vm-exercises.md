@@ -15,7 +15,7 @@
 #### Files
 
 - [x] **Initial**: Add file to the `exercises/`  folder with the name `ex-1-intial.pbix`, depending if you are auditioning for a Tableau or Power BI course.
-- [ ] **Solution**: Add file to the `exercises/`  folder with the name `ex-1-sol.twbx` or `ex-1-sol.pbix`
+- [x] **Solution**: Add file to the `exercises/`  folder with the name `ex-1-sol.twbx` or `ex-1-sol.pbix`
 
 #### Learning Objective
 
@@ -73,8 +73,7 @@ Hint: Make sure that you correctly specified the quantity columns. Your formula 
 Feedback: Excellent! It seems Lip gloss is among the items that sell most often, perhaps JEPETO's STORE should include more items in a similar category.
 
 #### End goal:
-
-*Add an image of the final visualization here.*
+![End_goal](End_goal.jpg)
 
 ## Finalized Workbook
 
