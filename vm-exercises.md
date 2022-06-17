@@ -65,15 +65,13 @@ Make two barcharts, one that displays the Items by their Inventory turnover and 
 
 Hint: * For this exercise, you can use `unit_price` along with `Original_stock` and `2021_initial_stock` to compute this average.
 For the visualization, you can use `Description` with the average or sum of `Inventory_turnover_2021`, and .
-
+#### End goal:
+![End_goal](https://github.com/CevallosT-D/files/blob/main/End_goal.jpg?raw=true)
 
 #### Exercise question:
 Does the Item with highest inventory turnover match the one with the highest quantity? Mention which is the item with the second highest inventory turnover.
 Hint: Make sure that you correctly specified the quantity columns. Your formula should look like this: `Quantity_2020 = CALCULATE(SUM(Orders[Quantity]),FILTER(Orders, Stock[___]=Orders[___] && Orders[___]=2020))`; Where the first part of filter seeks a column that both tables have in common.
 Feedback: Excellent! It seems Lip gloss is among the items that sell most often, perhaps JEPETO's STORE should include more items in a similar category.
-
-#### End goal:
-![End_goal](https://github.com/CevallosT-D/files/blob/main/End_goal.jpg?raw=true)
 
 ## Finalized Workbook
 
@@ -81,8 +79,7 @@ Feedback: Excellent! It seems Lip gloss is among the items that sell most often,
 You can upload your final workbook in the exercises folder as `ex-final-sol.pbix`.
 
 #### Explanation & Description
-Which answers will the learner be able to solve once building this? How does it fit in the bigger picture?
+The learner gets to understand the concept of Inventory turnover and practices how to find ways to calculate it given diferent data structures.
 
-#### End goal:
-
-*Add an image of the final visualization here.*
+#### End goal - Dashboard:
+![Dashboard](https://github.com/CevallosT-D/files/blob/main/End_goal.jpg?raw=true)
